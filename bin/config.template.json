@@ -1,0 +1,27 @@
+#!/system/bin/sh
+# GacBoost Steering Configuration Template
+# This is the default configuration template for sing-box proxy setup
+
+{
+  "log": {
+    "level": "info",
+    "output": "/data/adb/gacboost-steering/run/meta.log"
+  },
+  "inbounds": [
+    {
+      "type": "socks",
+      "listen": "127.0.0.1",
+      "listen_port": 1080,
+      "sniff": true
+    }
+  ],
+  "outbounds": [
+    {
+      "type": "direct",
+      "tag": "direct"
+    }
+  ],
+  "route": {
+    "rules": []
+  }
+}

@@ -19,3 +19,12 @@ FINAL="cloudacc"
 
 # Auto-start on boot (1|0)
 AUTO_START="1"
+
+# Proxy server (socks5 address)
+PROXY_SERVER="127.0.0.1:1080"
+
+# Enable DNS interception
+ENABLE_DNS="1"
+
+# DNS server address
+DNS_SERVER="223.5.5.5"
