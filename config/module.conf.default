@@ -1,0 +1,21 @@
+# GacBoost Steering v1.7.4 - Default Configuration
+# Configuration Priority: override.conf > config.conf > module.conf.default
+
+# Target applications (package names, space-separated)
+# Example: TARGETS="com.example.app1 com.example.app2"
+TARGETS=""
+
+# Port filtering (comma-separated or empty for no filtering)
+PORTS=""
+
+# IP filtering (comma-separated or empty for no filtering)
+IPS=""
+
+# Protocol (both|tcp|udp)
+PROTO="both"
+
+# Final routing rule
+FINAL="cloudacc"
+
+# Auto-start on boot (1|0)
+AUTO_START="1"

@@ -1,0 +1,6 @@
+id=gacboost_steering
+name=GacBoost Steering
+version=1.7.4
+versionCode=174
+author=GacBoost Team
+description=KernelSU module for sing-box traffic steering and configuration management
